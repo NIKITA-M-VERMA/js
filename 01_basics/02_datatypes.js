@@ -11,3 +11,19 @@
   object 
   */
 
+
+
+  //datatypes summary 
+  /* two categories primtive and non primtive 
+  primtive has 7 datatype , they are call by value (change in copy)
+  string , number , null, bool, undefined  , symbol , Bigint
+
+  non primtive , they arre reference type  call by reference 
+  array , objects , functions (type of is object function )
+
+  JS is dynamically typed 
+  */
+
+  const myfunction=function(){
+    console.log(" hello world ")
+  }
