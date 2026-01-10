@@ -27,3 +27,12 @@
   const myfunction=function(){
     console.log(" hello world ")
   }
+
+
+
+  /*
+ 
+  memory 
+  heap and stack 
+  primitive stack (copy passed)
+  non primitive heap (call by refrence)*/
