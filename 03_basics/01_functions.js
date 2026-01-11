@@ -14,3 +14,24 @@ function login(username="buddy"){
     return `${username} you just logged in here`
 }
 console.log(login("zinisha"))
+
+
+function calculatecartprize(val1,val2,...num){
+    return num
+}
+console.log(calculatecartprize(100,2000,200,300))
+//this is called rest operator where we put all the elements in a array and return that array 
+
+const user={
+    name:"christie",
+    amount:4000
+}
+
+function handleobject(anyobject){
+    console.log(`user is ${anyobject.name} and the amount spend is ${anyobject.amount}`)
+}
+handleobject(user)
+handleobject({
+    name:"elasine",
+    amount:5000
+})
