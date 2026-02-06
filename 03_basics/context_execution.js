@@ -13,11 +13,12 @@
   1. global environment /execution  yeh allocate hota hai this ke ander
   2. Memory creation phase 
      take all varibles and each value is undefined , in function declaration is assigned 
-  3.execution phase 
+  3.execution phase /context 
      put value in the variables 
      if a variable has a function then firstly a new environemnt is built +execution thread  again 1-3 steps are done for this thead and thread is deleted after processing 
      
       
-
+ call stack
+ has first component as global execution 
 
 */
