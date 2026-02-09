@@ -18,7 +18,7 @@ execute atleast one even in worst case
 
 5. maps- unique  we can use for of loop for( const [key,value] of map)
 
-6. objeccts is not iteratable using for of 
+6. objeccts is not iteratable using for of [ {},{},{}]
 
 
 7. for in is used to ieterate in the object different keys for(const key in obj)
@@ -28,4 +28,19 @@ execute atleast one even in worst case
 9. for in is not iteratable for maps
 
 1 for each used in array -direct properties usin callback function and this function do not have its own name 
+ foreach(function (item) {})
+
+2 we can also use arrow function 
+ foreach( (item) => {})
+
+3 use other function which already has a name 
+foreach( printme)
+give only reference do not execute it 
+
+4. also has arr and index 
+foreach( (item , index, arr)=>{})
+
+
+10  array of object [ {}, {}, {}]
+for each( ( item.languagename)=>{})
 */
